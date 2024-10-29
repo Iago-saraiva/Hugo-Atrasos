@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #00cae5;
+  background-image: linear-gradient(to right, blue, white);
+  margin: 80px 10%;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background:  transparent;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  color: black;
+}
+
+input {
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+input::placeholder{
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #08b0e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(164, 129, 197);
+}
